@@ -13,7 +13,6 @@ public class FullTimeEmployee extends Employee implements BonusEligible {
 
     @Override
     public double calculateBonus() {
-        // Example: Bonus is 10% of base salary
         return baseSalary * 0.1;
     }
 }
